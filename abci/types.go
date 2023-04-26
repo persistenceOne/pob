@@ -18,6 +18,14 @@ const (
 	// CometBFT's ability to receive 2/3+ valid votes to finalize the block.
 	// Honest nodes should never be rejected.
 	ResponseVerifyVoteExtension_REJECT ResponseVerifyVoteExtension_VerifyStatus = 2
+
+	// TopAuctionTxDelimeter is the delimiter used to separate the top auction tx from the rest of the bytes
+	// included in RequestProcessProposal
+	TopAuctionTxDelimeter = "top_auction_tx"
+
+	// VoteExtensionsDelimeter is the delimiter used to separate the vote extensions from the rest of the bytes
+	// included in RequestProcessProposal
+	VoteExtensionsDelimeter = "vote_extensions"
 )
 
 type (
