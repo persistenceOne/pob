@@ -185,8 +185,11 @@ require (
 
 replace (
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
-	github.com/cosmos/cosmos-sdk => github.com/persistenceOne/cosmos-sdk v0.47.3-lsm2
+	github.com/cosmos/cosmos-sdk => github.com/persistenceOne/cosmos-sdk v0.47.3-lsm3
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 )
 
-retract v1.0.0-lsm // doesn't contain audit fixes nor default params in genesis
+retract (
+	v1.0.3-lsm // outdated
+	v1.0.0-lsm // doesn't contain audit fixes nor default params in genesis
+)

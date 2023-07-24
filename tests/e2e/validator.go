@@ -172,9 +172,6 @@ func (v *validator) buildCreateValidatorMsg(amount sdk.Coin) (sdk.Msg, error) {
 		MaxChangeRate: sdk.MustNewDecFromStr("0.01"),
 	}
 
-	// get the initial validator min self delegation
-	minSelfDelegation, _ := sdk.NewIntFromString("1")
-
 	valPubKey, err := cryptocodec.FromTmPubKeyInterface(v.consensusKey.PubKey)
 	if err != nil {
 		return nil, err
@@ -190,7 +187,6 @@ func (v *validator) buildCreateValidatorMsg(amount sdk.Coin) (sdk.Msg, error) {
 		amount,
 		description,
 		commissionRates,
-		minSelfDelegation,
 	)
 }
 
