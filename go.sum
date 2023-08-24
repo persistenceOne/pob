@@ -826,8 +826,8 @@ github.com/pelletier/go-toml v1.9.5/go.mod h1:u1nR/EPcESfeI/szUZKdtJ0xRNbUoANCko
 github.com/pelletier/go-toml/v2 v2.0.7 h1:muncTPStnKRos5dpVKULv2FVd4bMOhNePj9CjgDb8Us=
 github.com/pelletier/go-toml/v2 v2.0.7/go.mod h1:eumQOmlWiOPt5WriQQqoM5y18pDHwha2N+QD+EUNTek=
 github.com/performancecopilot/speed v3.0.0+incompatible/go.mod h1:/CLtqpZ5gBg1M9iaPbIdPPGyKcA8hKdoy6hAWba7Yac=
-github.com/persistenceOne/cosmos-sdk v0.47.3-lsm3 h1:lfX+OnKmmbJkijtIUu74C4BevzFXXjEGlxPLb6G6ngc=
-github.com/persistenceOne/cosmos-sdk v0.47.3-lsm3/go.mod h1:4oxikyyHyEe1wlYQFMGITfW/r01wYtfj8yjwru7bSWE=
+github.com/persistenceOne/cosmos-sdk v0.47.3-lsm4 h1:HyoRiPw30IOFdNyhrXFOrU20fR1UKgtv7PsTBeVpsMU=
+github.com/persistenceOne/cosmos-sdk v0.47.3-lsm4/go.mod h1:4oxikyyHyEe1wlYQFMGITfW/r01wYtfj8yjwru7bSWE=
 github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5/go.mod h1:jvVRKCrJTQWu0XVbaOlby/2lO20uSCHEMzzplHXte1o=
 github.com/petermattis/goid v0.0.0-20230317030725-371a4b8eda08 h1:hDSdbBuw3Lefr6R18ax0tZ2BJeNB3NehB3trOwYBsdU=
 github.com/petermattis/goid v0.0.0-20230317030725-371a4b8eda08/go.mod h1:pxMtw7cyUw6B2bRH0ZBANSPg+AoSud1I1iyJHI69jH4=
